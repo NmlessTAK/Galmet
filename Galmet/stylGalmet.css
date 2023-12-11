@@ -1,0 +1,149 @@
+body
+{
+    font-family: 'Arial';
+    background-color: black;
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 1) 18%, rgba(84, 79, 79, 1) 79%);
+    color: white;
+    text-align: center;
+    zoom:38%;
+}
+.navbar
+{
+    background-color: #333; 
+    color: white; 
+    padding: 0px 0; 
+}
+  
+.container
+{
+    width: 100%; 
+    margin: 0 auto; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo
+{
+    width: 900px;
+    height: 300px;
+}
+  
+nav ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+  
+nav ul li
+{
+    margin-right: 50px;
+    padding: 20px;
+}
+  
+nav ul li:last-child
+{
+    margin-right: 0;
+}
+  
+nav a
+{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+h1
+{
+    font-size: 200px;
+}
+
+input
+{
+    font-size: 80px;
+    background-color: black;
+    color: white;
+    border: 2px solid;
+    border-color: white;
+}
+
+input[type=submit]:active
+{
+    background-color: white;
+}
+
+#mapaOZE
+{
+    float:left;
+    width: 50%;
+    text-align: left;
+    clear:both;
+}
+
+#mapaNIEOZE
+{
+    float:left;
+    width: 50%;
+    text-align: left;
+    clear:both;
+}
+
+#wynik1
+{
+    width: 50%;
+    height: 2000px;
+    float: left;
+    font-size: 90px;
+    text-align: left;
+}
+
+#wynik2
+{
+    width: 50%;
+    height: 2000px;
+    float: left;
+    font-size: 90px;
+    text-align: left;
+}
+
+#header
+{
+    width: 100%;
+    height: 100px;
+    font-size: 40px;
+    clear:both;
+    text-align: left;
+}
+
+#ozemapa
+{
+    width: 100%;
+    height: 200px;
+}
+
+.przerwa
+{
+    width: 100%;
+    height: 250px;
+    clear:both;
+}
+
+#n1
+{
+    font-size: 150px;
+}
+
+#nieoze
+{
+    width: 100%;
+    height: 200px;
+    clear:both;
+}
+
+#footer
+{
+    font-size: 50px;
+}
